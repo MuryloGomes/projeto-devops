@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./src/styles/style.css">
+   <link rel="stylesheet" href="./src/styles/home.css">
+   <link rel="stylesheet" href="./src/styles/footer.css">
+   <link rel="stylesheet" href="./src/styles/header.css">
+   <link rel="stylesheet" href="./src/styles/testimonials.css">
+   <link rel="stylesheet" href="./src/styles/dogs.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+   <script src="https://unpkg.com/scrollreveal"></script>
+  <link rel="icon" href="./src/images/shield-dog-solid.svg">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>WindowZOO</title>
+    
+</head>
+<body>
+  <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-shield-dog"> WindowZOO <i class="fa-solid fa-shield-cat"></i></i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre_nos">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                <a href="./src/html/cadastro.html">Seja bem-vindo!</a>
+            </button>
+
+            <button id="mobile_btn">
+            <i class="fa fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre_nos">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <a href="./src/html/cadastro.html""><button class="btn-default">
+                Encontre seu melhor amigo!
+            </button></a>
+        </div>
+  </header>  
+
+  <main id="content">
+
+    <section id="home">
+        <div class="shape"></div>
+        <div id="cta">
+            <h1 class="title">
+                Cuidando de cada vida com <span>Carinho e Dedicação!</span>
+            </h1>
+
+            <p class="description">
+                No nosso zoológico, cada animal recebe atenção especial para garantir seu bem-estar. Conheça nosso sistema de gestão e faça parte dessa missão!
+            </p>
+
+            <div id="cta_buttons">
+
+                <a href="./src/html/login.html" class="btn-default">Cadastre-se</a>
+
+                <a href="tel:+55 11 98762-8803" id="phone_button">
+    
+                    <button class="btn-default">
+                        <i class="fa-solid fa-phone">
+                        </i>
+                    </button>
+                    +55 11 98762-8803
+                </a>
+            </div>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+            </div>
+        </div>
+
+        <div id="banner">
+            <img src="src/images/dog1.png" alt="">
+        </div>
+
+    </section>
+
+
+    <section id="sobre_nos">
+        <h2 class="section-title">Sobre Nós</h2>
+        <h3 class="section-subtitle">
+            Conheça mais sobre o nosso trabalho e sua importância.
+        </h3>
+
+        <div id="dogs">
+
+            <div class="dog">
+                <div class="dog-heart">
+                    <i class="fa-solid fa-heart" ></i>
+                </div>
+
+               <div id="teste">
+                <img src="./src/images/onca.png" class="dog-image">
+                </div>
+                <h3 class="dog-title">
+                    Animal em Primeiro Lugar 
+                </h3>
+
+                <span class="dog-description">Nosso zoológico é mais do que um espaço de exposição. Aqui, cada animal recebe cuidados veterinários, alimentação balanceada e um ambiente adequado para sua espécie. Nossa equipe trabalha diariamente para garantir o conforto e a qualidade de vida de todos os habitantes do zoológico.</span>
+                <button class="btn-default">
+                    <i class="fa-solid fa-shield-dog"></i>
+                </button>
+            </div>
+
+            <div class="dog">
+                <div class="dog-heart">
+                    <i class="fa-solid fa-heart" ></i>
+                </div>
+
+               
+                <img src="./src/images/falso png/1-1.png" class="dog-image">
+                <h3 class="dog-title">
+                    Educação e Conscientização 
+                </h3>
+
+                <span class="dog-description">Acreditamos que a educação transforma. Nossas visitas guiadas e projetos educativos ensinam crianças e adultos sobre a importância da preservação da fauna. Queremos inspirar novas gerações a respeitar e proteger os animais.</span>
+                <button class="btn-default">
+                    <i class="fa-solid fa-shield-dog"></i>
+                </button>
+            </div>
+
+            <div class="dog">
+                <div class="dog-heart">
+                    <i class="fa-solid fa-heart" ></i>
+                </div>
+
+               
+                <img src="./src/images/images-removebg-preview.png" class="dog-image">
+                <h3 class="dog-title">
+                    Tecnologia a Serviço
+                </h3>
+
+                <span class="dog-description">Utilizamos um sistema moderno para gerenciar fichas clínicas, exames e históricos dos animais, garantindo um acompanhamento completo da saúde de cada um. A inovação nos ajuda a oferecer o melhor cuidado possível.</span>
+                <button class="btn-default">
+                    <i class="fa-solid fa-shield-dog"></i>
+                </button>
+            </div>
+
+            <div class="dog">
+                <div class="dog-heart">
+                    <i class="fa-solid fa-heart" ></i>
+                </div>
+
+               
+                <img src="./src/images/falso png/animais-home-site-zoo.png" class="dog-image">
+                <h3 class="dog-title">
+                    Um Espaço Para Toda a Família
+                </h3>
+
+                <span class="dog-description">Nosso zoológico é um local perfeito para passeios inesquecíveis. Com ambientes bem estruturados e atividades interativas, proporcionamos momentos de lazer, aprendizado e conexão com a natureza para todas as idades.</span>
+                <button class="btn-default">
+                    <i class="fa-solid fa-shield-dog"></i>
+                </button>
+            </div>
+
+
+            
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <img src="./src/images/veterinaria-removebg-preview.png" id="testimonials_chef" srcset="">
+
+        <div id="testimonials_content">
+            <h2 class="section-title">
+                Avaliações
+            </h2>
+            <h3 class="section-subtitle">
+                O que os Visitantes falam sobre nós?
+            </h3>
+
+            <div id="feedbaks">
+                <div class="feedback">
+                    <img src="src/images/Allan.png" alt="" class="feedback-avatar">
+
+                    <div class="feedback-content">
+                        <p>
+                            Allan Gabriel Vieira da Rocha
+                            <span>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                            </span>
+                        </p>
+                        <p>
+                            Visitar o zoológico foi uma experiência maravilhosa! Os animais são bem cuidados, e a equipe é muito atenciosa. Aprendi muito sobre conservação e saí com uma nova visão sobre a importância da preservação da fauna.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="feedback">
+                    <img src="src/images/Pedro Castro.jpeg" alt="" class="feedback-avatar">
+
+                    <div class="feedback-content">
+                        <p>
+                            Pedro Castro
+                            <span>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                            </span>
+                        </p>
+                        <p>
+                            Ótimo lugar para levar a família! O espaço é limpo, bem organizado e cheio de informações interessantes. As crianças adoraram ver os animais de perto e participar das atividades educativas. Com certeza voltaremos!
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="feedback">
+                    <img src="src/images/Gabriel.PNG" alt="" class="feedback-avatar">
+
+                    <div class="feedback-content">
+                        <p>
+                            Gabriel Barbosa de Azevedo Lopes
+                            <span>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                                <i class="fa-solid fa-paw"></i>
+                            </span>
+                        </p>
+                        <p>
+                            Fiquei impressionado com o carinho e a dedicação dos profissionais. Dá para ver que os animais são bem tratados e que há um compromisso real com o bem-estar deles. Recomendo para todos que amam a natureza!
+                        </p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <button class="btn-default">
+                Ver mais avaliações
+            </button>
+        </div>
+    </section>
+
+<section id="equipe">
+    <div class="teams" id="teams">
+        <h1>Equipe <strong>WindowZOO</strong></h1>
+        <div class="our_team">
+            <div class="team_member">
+                <div class="member_img">
+                <img src="./src/images/Gui.PNG ">
+                  <div class="social_media">
+                    <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                    <div class="facebook item"><i class="fab fa-linkedin"></i></div>
+                    <div class="twitter item"><i class="fab fa-github"></i></div>
+                  </div>
+               </div>
+               <h3>Guilherme Pereira</h3>
+               <p>Guilherme Pereira é um líder habilidoso e desenvolvedor experiente, atuando como Diretor Geral de Projeto e Desenvolvedor Back-end. Com vasta experiência na indústria de TI e especialização em linguagens como Java, Python e Ruby, ele é capaz de liderar equipes e criar soluções back-end eficientes e escaláveis. Sua habilidade de liderança e desenvolvimento faz dele um recurso valioso para o sucesso dos projetos dentro da organização.</p>
+           </div>
+            <div class="team_member">
+               <div class="member_img">
+               <img src="./src/images/WhatsApp Image 2025-03-31 at 19.23.03.jpeg">
+               <div class="social_media">
+                   <div class="instagram item"><a href=""><i class="fab fa-instagram"></i></a></div>
+                   <div class="facebook item"><i class="fab fa-linkedin"></i></div>
+                   <div class="twitter item"><i class="fab fa-github"></i></div>
+                 </div>
+              </div>
+            
+              <h3>Murylo Gomes Alves</h3>
+              <p>Olá, eu sou o Murylo Gomes Alves! Sempre fui fascinado por tecnologia e pela natureza, e agora tive a oportunidade de unir essas duas paixões.
+
+                Como desenvolvedor, contribui para a criação de um sistema completo para a gestão de zoológicos. Nosso site permite o cadastro detalhado dos animais, acompanhamento clínico e controle administrativo, garantindo um cuidado mais eficiente e uma melhor experiência para todos que fazem parte desse ambiente.</p>
+          </div>
+        
+
+          <div class="team_member">
+            <div class="member_img">
+            <img src="./src/images/Joao Vitor.png">
+            <div class="social_media">
+                <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                <div class="facebook item"><i class="fab fa-linkedin"></i></div>
+                <div class="twitter item"><i class="fab fa-github"></i></div>
+              </div>
+           </div>
+           <h3>João Vitor Simão Gomes</h3>
+           <p>Olá, eu sou o João Vitor Simão Gomes! Tenho paixão por tecnologia e pelo mundo animal. Como desenvolvedor, uni essas duas áreas para criar um sistema inovador para a gestão de zoológicos.
+
+            Nosso site facilita o cadastro e acompanhamento dos animais, garantindo um controle eficiente de fichas clínicas, exames e perfis dos funcionários. Com essa plataforma, buscamos melhorar a organização e o cuidado com cada espécie, promovendo bem-estar e conservação da fauna.</p>
+       </div>
+    </div>
+
+</section>
+
+
+  </main>
+
+
+    <footer>
+        <div class="footer">
+             <div class="row">
+                  <a href="https://www.instagram.com/endersoftwares/"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-github"></i></a>
+             </div>
+
+             <div class="row">
+                  <ul>
+                       <li><a href=#home>Home</a></li>
+                       <li><a href=#sobre_nos>Sobre Nós</a></li>
+                       <li><a href=#testimonials>Depoimentos</a></li>
+                       <li><a href=#equipe>Equipe</a></li>
+                  </ul>
+             </div>
+
+
+             <div class="row">
+                  || WindoZOO Inc Copyright © 2024. Todos os Direitos Reservados. ||
+             </div>
+        </div>
+   </footer>
+
+    
+   
+
+
+
+  <script src="./src/javascript/jsquery.js"></script>
+</body>
+</html>
